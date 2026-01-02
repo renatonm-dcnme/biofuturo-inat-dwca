@@ -1,0 +1,86 @@
+dataset:
+  title: 'BioFuturo na Cidade: iNaturalist observations around BioBlitz events in
+    São Paulo, Brazil (2025)'
+  description: Occurrences derived from iNaturalist observations collected before/during/after
+    BioBlitz events in multiple municipalities in São Paulo state, Brazil, as part
+    of the BioFuturo na Cidade citizen-science project.
+  publisher: Universidade Federal de São Carlos (UFSCar)
+  pub_year: 2026
+  language: en
+  license:
+    name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+  contact:
+    name: FILL_ME
+    email: FILL_ME
+inputs:
+  excel_sheet: 02_mestre_filtrada_bioblitz
+  windows_csv: data/raw/bioblitz_windows_summary.csv
+fields:
+- term: occurrenceID
+  source: uuid
+  required: true
+- term: catalogNumber
+  source: id
+- term: basisOfRecord
+  value: HumanObservation
+  required: true
+- term: eventDate
+  source: time_observed_at
+  fallback_source: observed_on
+  transform: iso_datetime
+  required: true
+- term: eventID
+  transform: event_id
+- term: recordedBy
+  transform: recorded_by
+- term: rightsHolder
+  transform: rights_holder
+- term: license
+  source: license_code
+  transform: license_url
+- term: references
+  source: uri
+- term: scientificName
+  source: scientific_name
+  fallback_source: taxon.name
+  fallback_source2: species_guess
+  required: true
+  value_if_missing: Biota
+- term: taxonRank
+  source: taxon.rank
+- term: taxonID
+  source: taxon.id
+  transform: taxon_uri
+- term: decimalLatitude
+  source: location
+  transform: location_lat
+- term: decimalLongitude
+  source: location
+  transform: location_lon
+- term: geodeticDatum
+  value: WGS84
+- term: coordinateUncertaintyInMeters
+  transform: coord_uncertainty_m
+- term: countryCode
+  value: BR
+- term: country
+  value: Brazil
+- term: stateProvince
+  value: São Paulo
+- term: municipality
+  source: municipio_tag
+- term: locality
+  source: place_guess
+- term: occurrenceStatus
+  value: present
+- term: occurrenceRemarks
+  source: description
+- term: dynamicProperties
+  transform: dynamic_properties_json
+- term: dataGeneralizations
+  transform: data_generalizations
+- term: informationWithheld
+  transform: information_withheld
+- term: associatedMedia
+  source: image_url

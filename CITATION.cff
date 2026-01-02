@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "BioFuturo na Cidade: iNaturalist observations around BioBlitz events in São Paulo, Brazil (2025)"
+type: dataset
+authors:
+  - family-names: "FILL_ME"
+    given-names: "FILL_ME"
+    affiliation: "Universidade Federal de São Carlos (UFSCar)"
+repository-code: "https://github.com/FILL_ME/FILL_ME"
+license: "CC-BY-4.0"

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="biofuturo.inat.dwca" system="https://github.com/FILL_ME/FILL_ME" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://eml.ecoinformatics.org/eml-2.1.1/eml.xsd">
+  <dataset>
+    <title xml:lang="en">BioFuturo na Cidade: iNaturalist observations around BioBlitz events in São Paulo, Brazil (2025)</title>
+    <creator>
+      <individualName>
+        <surName>FILL_ME</surName>
+        <givenName>FILL_ME</givenName>
+      </individualName>
+      <electronicMailAddress>FILL_ME</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <surName>FILL_ME</surName>
+        <givenName>FILL_ME</givenName>
+      </individualName>
+      <electronicMailAddress>FILL_ME</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2026-01-02</pubDate>
+    <abstract>
+      <para>Occurrences derived from iNaturalist observations collected before/during/after BioBlitz events in multiple municipalities in São Paulo state, Brazil, as part of the BioFuturo na Cidade citizen-science project.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>citizen science</keyword>
+      <keyword>iNaturalist</keyword>
+      <keyword>BioBlitz</keyword>
+      <keyword>Darwin Core Archive</keyword>
+      <keyword>Brazil</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Dataset licensed under CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Individual occurrence records may retain their original iNaturalist license where available.</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Municipalities in São Paulo state, Brazil: Araras, Campina do Monte Alegre, Sorocaba, São Carlos</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-48.5515866</westBoundingCoordinate>
+          <eastBoundingCoordinate>-47.2105879</eastBoundingCoordinate>
+          <northBoundingCoordinate>-21.8206489</northBoundingCoordinate>
+          <southBoundingCoordinate>-23.6081833</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2025-04-17</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2025-07-18</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+  </dataset>
+</eml:eml>

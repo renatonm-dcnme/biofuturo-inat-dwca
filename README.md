@@ -30,7 +30,7 @@ In addition to core Darwin Core terms, the package includes project-specific con
 
 ---
 
-## Quick start (for co-authors)
+## Quick start (for readers)
 
 ### A) Download the repository
 - **Option 1:** Use GitHub “Code → Download ZIP”.

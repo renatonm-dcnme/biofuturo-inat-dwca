@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml packageId="biofuturo.inat.dwca" system="https://github.com/FILL_ME/FILL_ME" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://eml.ecoinformatics.org/eml-2.1.1/eml.xsd">
+<eml:eml packageId="biofuturo.inat.dwca" system="https://github.com/renatonm-dcnme/biofuturo-inat-dwca" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://eml.ecoinformatics.org/eml-2.1.1/eml.xsd">
   <dataset>
     <title xml:lang="en">BioFuturo na Cidade: iNaturalist observations around BioBlitz events in São Paulo, Brazil (2025)</title>
     <creator>
       <individualName>
-        <surName>FILL_ME</surName>
-        <givenName>FILL_ME</givenName>
+        <surName>Martins</surName>
+        <givenName>Valéria</givenName>
       </individualName>
-      <electronicMailAddress>FILL_ME</electronicMailAddress>
+      <electronicMailAddress>vmartins@ufscar.br</electronicMailAddress>
     </creator>
     <metadataProvider>
       <individualName>
@@ -20,13 +20,17 @@
     <abstract>
       <para>Occurrences derived from iNaturalist observations collected before/during/after BioBlitz events in multiple municipalities in São Paulo state, Brazil, as part of the BioFuturo na Cidade citizen-science project.</para>
     </abstract>
-    <keywordSet>
-      <keyword>citizen science</keyword>
-      <keyword>iNaturalist</keyword>
-      <keyword>BioBlitz</keyword>
-      <keyword>Darwin Core Archive</keyword>
-      <keyword>Brazil</keyword>
-    </keywordSet>
+	<keywordSet>
+	  <keyword>biodiversity</keyword>
+	  <keyword>Brazil</keyword>
+	  <keyword>citizen science</keyword>
+	  <keyword>complex environmental systems</keyword>
+	  <keyword>iNaturalist</keyword>
+	  <keyword>urban ecology</keyword>
+	  <keyword>user behaviour</keyword>
+	  <keyword>BioBlitz</keyword>
+	  <keyword>Darwin Core Archive</keyword>
+	</keywordSet>
     <intellectualRights>
       <para>Dataset licensed under CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Individual occurrence records may retain their original iNaturalist license where available.</para>
     </intellectualRights>

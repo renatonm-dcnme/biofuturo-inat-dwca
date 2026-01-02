@@ -1,4 +1,24 @@
 dataset:
+  title: "Dataset for: Patterns of people’s engagement set off by Bioblitzes in urban green areas"
+  description: |
+    Bioblitzes are an important citizen science strategy for engaging people with nature while gathering biodiversity data,
+    especially in urban green areas. Here, we provide a comprehensive description of changes in people’s engagement in iNaturalist
+    set off by bioblitzes in urban green areas in southeastern Brazil. We evaluated users’ engagement across multiple municipalities
+    and time windows (Before/During/After) around each BioBlitz event, using participation, activity and contribution metrics.
+    This dataset underlies the analyses in the associated Biotropica manuscript and supports reuse and reproducibility of the study.
+  publisher: "Universidade Federal de São Carlos (UFSCar)"
+  pub_year: 2026
+  language: en
+  github_repo: "renatonm-dcnme/biofuturo-inat-dwca"
+  license:
+    name: "CC-BY 4.0"
+    url: "https://creativecommons.org/licenses/by/4.0/"
+  creator:
+    name: "Valéria Forni Martins"
+    email: "vmartins@ufscar.br"
+  contact:
+    name: "Renato Nallin Montagnolli"
+    email: "renatonm@ufscar.br"
   title: 'BioFuturo na Cidade: iNaturalist observations around BioBlitz events in
     São Paulo, Brazil (2025)'
   description: Occurrences derived from iNaturalist observations collected before/during/after

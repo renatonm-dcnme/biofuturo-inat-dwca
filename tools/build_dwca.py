@@ -217,14 +217,16 @@ def build_eml_xml(cfg: Dict[str, Any], bbox: Dict[str, float], date_begin: str, 
     contact_given = cn_parts[0] if cn_parts else "FILL_ME"
     contact_surname = cn_parts[-1] if cn_parts else "FILL_ME"
 
-    # creator placeholders (you will edit later)
-    creator_given = "FILL_ME"
-    creator_surname = "FILL_ME"
-    creator_email = "FILL_ME"
+    creator_name = (ds.get("creator", {}) or {}).get("name") or ds.get("contact", {}).get("name", "FILL_ME")
+    creator_email = (ds.get("creator", {}) or {}).get("email") or ds.get("contact", {}).get("email", "FILL_ME")
+    cr_parts = creator_name.split()
+    creator_given = cr_parts[0] if cr_parts else "FILL_ME"
+    creator_surname = cr_parts[-1] if cr_parts else "FILL_ME"
+
 
     filled = tpl.format(
         PACKAGE_ID="biofuturo.inat.dwca",
-        GITHUB_REPO="FILL_ME/FILL_ME",
+        GITHUB_REPO=ds.get("github_repo", "renatonm-dcnme/biofuturo-inat-dwca"),
         LANG=ds.get("language", "en"),
         TITLE=ds.get("title", "FILL_ME"),
         CREATOR_SURNAME=creator_surname,

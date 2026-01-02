@@ -20,13 +20,17 @@
     <abstract>
       <para>{ABSTRACT}</para>
     </abstract>
-    <keywordSet>
-      <keyword>citizen science</keyword>
-      <keyword>iNaturalist</keyword>
-      <keyword>BioBlitz</keyword>
-      <keyword>Darwin Core Archive</keyword>
-      <keyword>Brazil</keyword>
-    </keywordSet>
+	<keywordSet>
+	  <keyword>biodiversity</keyword>
+	  <keyword>Brazil</keyword>
+	  <keyword>citizen science</keyword>
+	  <keyword>complex environmental systems</keyword>
+	  <keyword>iNaturalist</keyword>
+	  <keyword>urban ecology</keyword>
+	  <keyword>user behaviour</keyword>
+	  <keyword>BioBlitz</keyword>
+	  <keyword>Darwin Core Archive</keyword>
+	</keywordSet>
     <intellectualRights>
       <para>Dataset licensed under {LICENSE_NAME} ({LICENSE_URL}). Individual occurrence records may retain their original iNaturalist license where available.</para>
     </intellectualRights>

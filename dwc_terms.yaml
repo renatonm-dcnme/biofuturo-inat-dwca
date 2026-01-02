@@ -30,9 +30,6 @@ dataset:
   license:
     name: CC-BY 4.0
     url: https://creativecommons.org/licenses/by/4.0/
-  contact:
-    name: FILL_ME
-    email: FILL_ME
 inputs:
   excel_sheet: 02_mestre_filtrada_bioblitz
   windows_csv: data/raw/bioblitz_windows_summary.csv
